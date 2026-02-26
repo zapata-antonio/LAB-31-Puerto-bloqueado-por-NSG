@@ -22,10 +22,3 @@ He identificado el NSG asociado, he creado una regla de entrada permitiendo el p
 
 ## Qué diría en entrevista
 “Cuando un puerto falla, reviso NSG efectivo, UDR y firewall del SO. Empiezo por el control más común: NSG en NIC/subnet.”
-Pasos y capturas
-1.	Desde otra VM o tu PC: Test-NetConnection <ip> -Port <puerto> → FAIL.
-📸 01.
-2.	NSG → regla inbound permitiendo puerto desde tu origen.
-📸 02.
-3.	Repite Test-NetConnection → OK.
-📸 03.
